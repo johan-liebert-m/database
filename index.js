@@ -1,6 +1,6 @@
 // modules
 var MongoClient = require('mongodb').MongoClient;
-var url = "mongodb://localhost:27017/";
+var url = "mongodb://sorecal-database.herokuapp.com:27017/";
 var express = require('express');
 var app = express();
 var port = process.env.PORT || 3000;
